@@ -2,6 +2,7 @@
 I found an old computer from the 80s. <br>
 It has 128 Words of RAM used by both the code and the data. <br>
 It also has a very simplistic reduced instruction set (RISC). <br>
+In the future I will add a picture of the original computer and it's instruction set <br>
 
 # Instruction Set
 | name  | opcode |                        description                        |
