@@ -1,0 +1,38 @@
+; r = 0; c = 0;
+LDC 0
+STA 102
+STA 103
+
+; c < b;
+LDA 103
+CMPE 101
+JC 13
+
+; r += a
+LDA 102
+ADD 100
+STA 102
+
+; ++c
+LDA 103
+ADD 104
+STA 103
+
+JMP 3
+; L1:
+LDA 102
+PRINT
+
+HLT
+
+@100
+;	a
+	data 3
+;	b
+	data 10
+;	r
+	data 0
+;	c
+	data 0
+;	1
+	data 1

@@ -1,0 +1,18 @@
+; a = 0
+LDC 0
+STA 100
+
+; a < 10
+CMPE 101
+JC 7
+
+PRINT
+ADD 102
+JMP 2
+; L1: 
+HLT
+
+@100
+data 0
+data 33
+data 2
